@@ -1,13 +1,21 @@
 
 /* Header */
 .header{ 
-  background-color: rgb(43,45,66);
+  background-image: linear-gradient(to left, blue, red, white);
   display: inline
 }
 .header img{
   width: 1000px;
   padding:15px;
 }
+
+.img-main {
+  transform:rotateY(180deg);
+  transform:skew(20deg);
+  transition: 20s;
+
+}
+
 
 .header a{
   color:black
